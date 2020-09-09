@@ -1,6 +1,6 @@
-window.addEventListener('popstate', function (event) {
-if(document.location.href === 'https://offer.thakea.com/#?offer1'){
-    window.location.replace('https://thakea.com/XPmGqV');
-}
 
-});
+  var els = document.getElementsByClassName('btn');
+  for (var i = 0; i < els.length; i++) {
+    els[i].id=i;
+    els[i].addEventListener('click', function () { console.log(this); });
+  }
