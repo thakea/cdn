@@ -1,22 +1,3 @@
-
-document.getElementById('m644').querySelectorAll(".btn")[0].addEventListener("click", function() {
-   console.log("m644 (offers) was clicked");
-   snaptr('track', 'CUSTOM_EVENT_1', {'offers': 'first'});  
-   window.location.replace('https://thakea.com/XPmGqV');
-});
-
-document.getElementById('m670').querySelectorAll(".btn")[0].addEventListener("click", function() {
-   console.log("m644 (offers) was clicked");
-   snaptr('track', 'CUSTOM_EVENT_1', {'offers': 'second'});  
-   window.location.replace('https://thakea.com/XPmGqV');
-});
-
-document.getElementById('m644').querySelectorAll(".btn")[0].addEventListener("click", function() {
-   console.log("m644 (offers) was clicked");
-   snaptr('track', 'CUSTOM_EVENT_1', {'offers': 'offers'});  
-   window.location.replace('https://thakea.com/XPmGqV');
-});
-
 var getUrlParameter = function getUrlParameter(sParam) {
     var sPageURL = window.location.search.substring(1),
         sURLVariables = sPageURL.split('&'),
