@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded", function(){ document.getElementById("addproduct").submit(); setTimeout(function(){document.location.href = 'https://thakea.com/cart';},300); });
+document.addEventListener("DOMContentLoaded", function(){ document.getElementById("addproduct").submit(function(){document.location.href = 'https://thakea.com/cart';}) });
